@@ -45,6 +45,7 @@ The placeholders can be found directly underneath the import statements on app.p
 app.py contains the layout for the dashboard application
 
 You're ready to go! Simply run the code on app.py
+
 In your console, a port address will appear:
 ```
 http://127.0.0.1:8050/
