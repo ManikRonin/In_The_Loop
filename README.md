@@ -41,6 +41,7 @@ You will need to acquire 3 API tokens to authenticate your access.
 
 In app.py, replace the API key placeholders with your own, personal API keys in their respective categories.
 The placeholders can be found directly underneath the import statements on app.py
+app.py contains the layout for the dashboard application
 
 You're ready to go! Simply run the code on app.py
 In your console, a port address will appear:
