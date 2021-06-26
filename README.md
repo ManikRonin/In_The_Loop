@@ -6,7 +6,7 @@ Due to API limitations with the free plan for AlphaVantage and Financial MP, do 
 
 ## Getting Started
 
-To begin, execute each of the following in your console:
+To begin, execute each of the following in your terminal:
 ```
 pip install dash
 ```
