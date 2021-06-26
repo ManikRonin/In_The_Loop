@@ -21,8 +21,15 @@ my_financial_mp = 'ENTER YOUR FINANCIAL MP API KEY HERE'  # Enter FinancialModel
 
 # ******************* GETTING DATA FOR GRAPHS ******************* #
 symbol = get_symbol()
-daily_data = presentation_daily_data(symbol=symbol, my_alpha_vantage=my_alpha_vantage)
-weekly_data = presentation_weekly_data(symbol, my_alpha_vantage)
+
+try:
+    daily_data = presentation_daily_data(symbol=symbol, my_alpha_vantage=my_alpha_vantage)
+    weekly_data = presentation_weekly_data(symbol, my_alpha_vantage)
+
+except KeyError:
+    raise Exception('Wait a full minute between changing the Stock Symbol on symbol.py \n'
+                    'This is due to limitations set forth by the API')
+
 delta = current_stock_performance(daily_data)
 colour = performance_colour(delta)
 
