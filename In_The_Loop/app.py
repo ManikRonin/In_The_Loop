@@ -28,14 +28,13 @@ Enjoy and remember to not refresh the app more than once per minute
 
 # ******************* SET UP ******************* #
 # ---->Set up your personal API key from url = https://www.alphavantage.co/
-my_alpha_vantage = '0DSXSWS011CCNNKQ'
+my_alpha_vantage = 'ENTER YOUR ALPHA VANTAGE API KEY HERE'
 
 # ---->Set up your personal API key from url = https://newsapi.org
-my_news_api = "e78b56f753734e719958a7982e92bee2"  # Enter News API key
+my_news_api = 'ENTER YOUR NEWS API KEY HERE'  # Enter News API key
 
 # ---->Set up your personal API key from url = https://financialmodelingprep.com/developer/docs/
-my_financial_mp = '9cb387f79a0478c1de3664bb1c6e381d'  # Enter FinancialModelingPrep API key
-
+my_financial_mp = 'ENTER YOUR FINANCIAL MP API KEY HERE'  # Enter FinancialModelingPrep API key
 
 # ******************* GETTING DATA FOR GRAPHS ******************* #
 symbol = get_symbol()
