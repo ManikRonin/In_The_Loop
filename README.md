@@ -1,4 +1,4 @@
-![Logo](In The Loop/assets/Title_Financial.png)
+![Logo](In_The_Loop/assets/Title_Financial.png)
 
 # In The Loop
 
