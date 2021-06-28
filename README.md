@@ -1,4 +1,9 @@
 # In The Loop
+
+Whether you’re just starting off, or are a seasoned trading veteran, In The Loop is a useful tool to gain a quick insight into any publicly traded company, its stock values over the years and some core ratios.
+
+There are three API’s: AlphaVantage, FinancialModelingPrep and NewsAPI. The first two are used to access stock datapoints across the years, company descriptions and other info. Two separate APIs were necessary, given that each one only allows for 5 callbacks/minute. NewsAPI produces the latest news headlines for the stock symbol that the user inputs
+
 Project for my current portfolio. Designed for educational purposes only.
 The graphs and charts were built using Dash, by Plotly.
 Due to API limitations with the free plan for AlphaVantage and Financial MP, do not run/refresh the app more than once per minute.
