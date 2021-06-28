@@ -1,3 +1,5 @@
+![Logo](In The Loop/assets/Title_Financial.png)
+
 # In The Loop
 
 Whether you’re just starting off, or are a seasoned trading veteran, In The Loop is a useful tool to gain a quick insight into any publicly traded company, its stock values over the years and some core ratios.
