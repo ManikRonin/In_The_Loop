@@ -80,5 +80,5 @@ by the limitations set forth by a free API key.
     
 ```
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True, port=8051) #Or any port > 8050
 ```
