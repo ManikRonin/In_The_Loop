@@ -78,7 +78,7 @@ by the limitations set forth by a free API key.
 
    Simply add a "port" attribute to the app.run_server
     
-      ```
-      if __name__ == '__main__':
-          app.run_server(debug=True)
-      ```
+```
+if __name__ == '__main__':
+    app.run_server(debug=True)
+```
