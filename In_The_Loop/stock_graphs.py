@@ -152,7 +152,7 @@ def presentation_daily_line_graph(daily_data, delta, colour, symbol):
 
     :return:
     Plotly line graph object ('Purple' Color graph with 'LightSeaGreen' labels) for the prior day
-    Displays closing price for yesterday's market values in intervals of 30 minutes (extended to 8pm market close)
+    Displays closing price for yesterday's market values in intervals of 5 minutes (extended to 8pm market close)
     """
     fig = go.Figure()
 
