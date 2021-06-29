@@ -70,3 +70,14 @@ Return to the open browser window, give it a moment to refresh itself (does it a
 
 ---> If your console returns a KeyError, simply wait one full minute and run it again. As mentionned, this is caused
 by the limitations set forth by a free API key.
+
+--> In the case of:
+    ```
+    OSError: [Errno 48] Address already in use
+    ```
+
+    Simply add a "port" attribute to the app.run_server
+    ```
+    if __name__ == '__main__':
+        app.run_server(debug=True)
+    ```
