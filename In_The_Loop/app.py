@@ -21,7 +21,7 @@ To get started, authenticate your API keys via the links below.
 Next, run app.py!
 
 In order to change which stock is being displayed, simply replace the "MSFT" place holder in symbol.py
-The layout with refresh itself momentarily.
+The layout will refresh itself momentarily.
 
 Enjoy and remember to not refresh the app more than once per minute
 '''
